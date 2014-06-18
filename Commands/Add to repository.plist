@@ -14,7 +14,7 @@ else
 fi
 export DARCSPaths
 
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby &lt;&lt;'EOF'
+ruby18 &lt;&lt;'EOF'
 require 'pathname'
 
 basedir = Pathname.new(ENV['TM_DIRECTORY']).realpath()
